@@ -61,7 +61,7 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     STRING5 = str(getenv("STRING_SESSION5"))
 
-if str(getenv("LOG_SESSION","BQCaBZC2GkfQQf3m3UVBzffAG3HeXDoYC75CM7ZeiDd3jyAHIRyVQUO4syJfgeqPwkFcEgil54Z6JRC7moGG79DqP2KWABS-JRseQEsN-CHpZCxt1wCYasri9H18wOVAIe0Rh7WK-VTjn6uqkakgLCdVkGtoj25BVbyJA4HrkehDek9GSVYgm1IFx_4yUltdBJzyzcJT62k4evaBV2rlenTHF9pL4AUteyeOYFJF6gnn8YUWlzJSbcsGAnNKjgiT813RBY9-KHIZN_HVtZ21fVjtUmMJ9mR7zD6HesTwE4B_N4-Z916bFAjCLSgJxM6EigNyGOPly7hHTBbS0LDRigFIAAAAAVuZk5cA")).strip() == "":
+if str(getenv("LOG_SESSION","-1001806893505")).strip() == "":
     LOG_SESSION = str(None)
 else:
     LOG_SESSION = str(getenv("LOG_SESSION"))
