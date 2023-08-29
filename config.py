@@ -17,7 +17,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mongodb1:mongodb1@cluster0.
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5444362033").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5444362033").split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001836126687"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " bniex)
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Bniex")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
