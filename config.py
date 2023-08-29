@@ -10,16 +10,16 @@ if os.path.exists("Internal"):
 
 get_queue = {}
 BOT_TOKEN = getenv("BOT_TOKEN", "6370320656:AAGJ4Qd0QmhxxJbPboPsX3xZs4PkOXYQ9CI")
-API_ID = getenv("API_ID", "9181844")
+API_ID = int(getenv("API_ID", "9181844"))
 API_HASH = getenv("API_HASH","996a3e7194a4f07576fda5c20bb1138b")
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000000000"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9000"))
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mongodb1:mongodb1@cluster0.fhk9lze.mongodb.net/?retryWrites=true&w=majority")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5444362033").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5444362033").split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001836126687"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ʙɴɪᴇ ダ ᴍᴜsɪᴄ")
-SweetyKU_API_KEY = getenv("SweetyKU_API_KEY","9181844")
-SweetyKU_APP_NAME = getenv("SweetyKU_APP_NAME","Mirror-Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " bniex)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", "https://github.com/Sandy8752/SweetyMusicBot"
@@ -61,7 +61,7 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     STRING5 = str(getenv("STRING_SESSION5"))
 
-if str(getenv("LOG_SESSION","-1001806893505")).strip() == "":
+if str(getenv("LOG_SESSION")).strip() == "":
     LOG_SESSION = str(None)
 else:
     LOG_SESSION = str(getenv("LOG_SESSION"))
