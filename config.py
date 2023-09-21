@@ -9,7 +9,7 @@ if os.path.exists("Internal"):
 # VARS
 
 get_queue = {}
-BOT_TOKEN = getenv("BOT_TOKEN", "6357692315:AAFRnvdbQmjGSB6mL976V0A475-oWE6x-Lo")
+BOT_TOKEN = getenv("BOT_TOKEN", "6443029397:AAHB4AcN61FxmAwSypKRuHM5Tq97wekxk40")
 API_ID =  "15883181"
 API_HASH = "093e1723084f836d8399bdbdd9ef536f"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000"))
