@@ -16,13 +16,13 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000"))
 MONGO_DB_URI = "MONGO_DB_URI", "mongodb+srv://moniabi:moniabi@cluster0.oikiuo4.mongodb.net/?retryWrites=true&w=majority"
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5444362033").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6649395836").split()))
-LOG_GROUP_ID = "-1001668749714"
+LOG_GROUP_ID = "-1001912157839"
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "testing bot")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "e30bcc5c-4ce0-4e24-b341-d75dbce9d35c")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "moni")
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/mukeshmoni/testing"
+    "UPSTREAM_REPO", "https://github.com/mukeshmoni/testings"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -61,7 +61,7 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     STRING5 = str(getenv("STRING_SESSION5"))
 
-if str(getenv("LOG_SESSION")).strip() == "":
+if str(getenv("LOG_SESSION")).strip() == "-1001912157839":
     LOG_SESSION = str(None)
 else:
     LOG_SESSION = str(getenv("LOG_SESSION"))
