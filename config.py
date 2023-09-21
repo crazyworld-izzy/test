@@ -30,7 +30,7 @@ if str(getenv("SUPPORT_CHANNEL", "Sad_shayari_lovers")).strip() == "":
     SUPPORT_CHANNEL = None
 else:
     SUPPORT_CHANNEL = str(getenv("SUPPORT_CHANNEL"))
-if str(getenv("SUPPORT_GROUP", "Alisha_Support")).strip() == "":
+if str(getenv("SUPPORT_GROUP", "bot_testing_groups")).strip() == "":
     SUPPORT_GROUP = None
 else:
     SUPPORT_GROUP = str(getenv("SUPPORT_GROUP"))

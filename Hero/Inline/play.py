@@ -175,7 +175,7 @@ def secondary_markup(videoid, user_id):
             InlineKeyboardButton(
                 text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
             ),
-            InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/Alisha_Support"),
+            InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/bot_testing_groups"),
         ],
     ]
     return buttons
@@ -190,7 +190,7 @@ def secondary_markup2(videoid, user_id):
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
         [
-            InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/Alisha_Support"),
+            InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/bot_testing_groups"),
         ],
     ]
     return buttons
@@ -217,7 +217,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(
                 text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
             ),
-            InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/Alisha_Support"),
+            InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/bot_testing_groups"),
         ],
     ]
     return buttons
@@ -241,7 +241,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(
                 text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
             ),
-            InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/Alisha_Support"),
+            InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/bot_testing_groups"),
         ],
     ]
     return buttons
@@ -264,7 +264,7 @@ def audio_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/Alisha_Support")],
+        [InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/bot_testing_groups")],
     ]
     return buttons
 
@@ -283,7 +283,7 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/Alisha_Support")],
+        [InlineKeyboardButton(text="⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/bot_testing_groups")],
     ]
     return buttons
 
@@ -296,6 +296,6 @@ audio_markup2 = InlineKeyboardMarkup(
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [InlineKeyboardButton("⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/Alisha_Support")],
+        [InlineKeyboardButton("⁂ Sᴜᴘᴘᴏʀᴛ ⁂", url=f"https://t.me/bot_testing_groups")],
     ]
 )

@@ -16,6 +16,6 @@ LOG_SESSION=
 
 MUSIC_BOT_NAME=AlishaMusic
 
-SUPPORT_GROUP=Alisha_Support
+SUPPORT_GROUP=bot_testing_groups
 
-SUPPORT_CHANNEL=Feeling_Alone_Abhi
+SUPPORT_CHANNEL=bot_testing_groups

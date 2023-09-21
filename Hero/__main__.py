@@ -115,8 +115,8 @@ async def initiate_bot():
             console.print(f"\n[red]sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ")
             return
         try:
-            await ASS_CLI_1.join_chat("Feeling_Alone_Abhi")
-            await ASS_CLI_1.join_chat("Alisha_Support")
+            await ASS_CLI_1.join_chat("bot_testing_groups")
+            await ASS_CLI_1.join_chat("bot_testing_groups")
         except:
             pass
         console.print(f"├[red] ᴀssɪsᴛᴀɴᴛ 1 sᴛᴀʀᴛᴇᴅ ᴀs {ASSNAME1}")
@@ -134,8 +134,8 @@ async def initiate_bot():
             console.print(f"\n[red]sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ")
             return
         try:
-            await ASS_CLI_2.join_chat("Feeling_Alone_Abhi")
-            await ASS_CLI_2.join_chat("Alisha_Support")
+            await ASS_CLI_2.join_chat("bot_testing_groups")
+            await ASS_CLI_2.join_chat("bot_testing_groups")
         except:
             pass
         console.print(f"├[red] ᴀssɪsᴛᴀɴᴛ 2 sᴛᴀʀᴛᴇᴅ ᴀs {ASSNAME2}")
@@ -153,8 +153,8 @@ async def initiate_bot():
             console.print(f"\n[red]sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ")
             return
         try:
-            await ASS_CLI_3.join_chat("Feeling_Alone_Abhi")
-            await ASS_CLI_3.join_chat("Alisha_Support")
+            await ASS_CLI_3.join_chat("bot_testing_groups")
+            await ASS_CLI_3.join_chat("bot_testing_groups")
         except:
             pass
         console.print(f"├[red] ᴀssɪsᴛᴀɴᴛ 3 sᴛᴀʀᴛᴇᴅ ᴀs {ASSNAME3}")
@@ -172,8 +172,8 @@ async def initiate_bot():
             console.print(f"\n[red]sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ")
             return
         try:
-            await ASS_CLI_4.join_chat("Feeling_Alone_Abhi")
-            await ASS_CLI_4.join_chat("Alisha_Support")
+            await ASS_CLI_4.join_chat("bot_testing_groups")
+            await ASS_CLI_4.join_chat("bot_testing_groups")
         except:
             pass
         console.print(f"├[red] ᴀssɪsᴛᴀɴᴛ 4 sᴛᴀʀᴛᴇᴅ ᴀs {ASSNAME4}")
@@ -191,8 +191,8 @@ async def initiate_bot():
             console.print(f"\n[red]sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ")
             return
         try:
-            await ASS_CLI_5.join_chat("Feeling_Alone_Abhi")
-            await ASS_CLI_5.join_chat("Alisha_Support")
+            await ASS_CLI_5.join_chat("bot_testing_groups")
+            await ASS_CLI_5.join_chat("bot_testing_groups")
         except:
             pass
         console.print(f"├[red] ᴀssɪsᴛᴀɴᴛ 5 sᴛᴀʀᴛᴇᴅ ᴀs {ASSNAME5}")
@@ -210,8 +210,8 @@ async def initiate_bot():
             console.print(f"\n[red]sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ")
             return
         try:
-            await LOG_CLIENT.join_chat("Feeling_Alone_Abhi")
-            await LOG_CLIENT.join_chat("Alisha_Support")
+            await LOG_CLIENT.join_chat("bot_testing_groups")
+            await LOG_CLIENT.join_chat("bot_testing_groups")
         except:
             pass
     console.print(f"└[red] ʜᴇʀᴏ ᴍᴜsɪᴄ ʙᴏᴛ ʙᴏᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ...")
