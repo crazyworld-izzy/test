@@ -124,8 +124,8 @@ async def useradd(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴀʟɪsʜᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕",
-                        url=f"https://t.me/QueenAlisha_RoboT?startgroup=true",
+                        "➕ ❰ ᴀᴅᴅ  ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕",
+                        url=f"https://t.me/sandy_musics_bot?startgroup=true",
                     )
                 ]
             ]
@@ -134,7 +134,7 @@ async def useradd(_, message: Message):
 
 
 @app.on_message(
-    filters.command(["alive", "reload", "alisha"])
+    filters.command(["alive", "reload"])
     & filters.private
     & ~filters.group
     & ~filters.edited
