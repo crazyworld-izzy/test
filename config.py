@@ -61,7 +61,7 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     STRING5 = str(getenv("STRING_SESSION5"))
 
-if str(getenv("LOG_SESSION")).strip() == "-1001912157839":
+if str(getenv("LOG_SESSION")).strip() == "":
     LOG_SESSION = str(None)
 else:
     LOG_SESSION = str(getenv("LOG_SESSION"))
