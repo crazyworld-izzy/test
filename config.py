@@ -10,7 +10,7 @@ if os.path.exists("Internal"):
 
 get_queue = {}
 BOT_TOKEN = getenv("BOT_TOKEN", "6357692315:AAFRnvdbQmjGSB6mL976V0A475-oWE6x-Lo")
-API_ID = int(getenv("API_ID", "13098464"))
+API_ID =  "13098464"
 API_HASH = getenv("API_HASH", "d57f367d43b812aea87fac24d7973356")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000"))
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monii:monii@cluster0.jdpdmrs.mongodb.net/?retryWrites=true&w=majority")
