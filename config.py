@@ -9,19 +9,19 @@ if os.path.exists("Internal"):
 # VARS
 
 get_queue = {}
-BOT_TOKEN = getenv("BOT_TOKEN", "6370320656:AAGJ4Qd0QmhxxJbPboPsX3xZs4PkOXYQ9CI")
-API_ID = 9181844
-API_HASH = getenv("API_HASH","996a3e7194a4f07576fda5c20bb1138b")
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9000"))
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mongodb1:mongodb1@cluster0.fhk9lze.mongodb.net/?retryWrites=true&w=majority")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5444362033").split()))
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5444362033").split()))
+BOT_TOKEN = 6357692315:AAFRnvdbQmjGSB6mL976V0A475-oWE6x-Lo
+API_ID = 13098464
+API_HASH = d57f367d43b812aea87fac24d7973356
+DURATION_LIMIT_MIN = 100000000000
+MONGO_DB_URI = mongodb+srv://monii:monii@cluster0.jdpdmrs.mongodb.net/?retryWrites=true&w=majority
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1318610382").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6649395836").split()))
 LOG_GROUP_ID = -1001836126687
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Bniex")
 
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/Sandy8752/SweetyMusicBot"
+    "UPSTREAM_REPO", "https://github.com/mukeshmoni/testings"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -35,8 +35,7 @@ else:
     SUPPORT_GROUP = str(getenv("SUPPORT_GROUP"))
 
 
-if str(getenv("STRING_SESSION1", "BQCaBZC2GkfQQf3m3UVBzffAG3HeXDoYC75CM7ZeiDd3jyAHIRyVQUO4syJfgeqPwkFcEgil54Z6JRC7moGG79DqP2KWABS-JRseQEsN-CHpZCxt1wCYasri9H18wOVAIe0Rh7WK-VTjn6uqkakgLCdVkGtoj25BVbyJA4HrkehDek9GSVYgm1IFx_4yUltdBJzyzcJT62k4evaBV2rlenTHF9pL4AUteyeOYFJF6gnn8YUWlzJSbcsGAnNKjgiT813RBY9-KHIZN_HVtZ21fVjtUmMJ9mR7zD6HesTwE4B_N4-Z916bFAjCLSgJxM6EigNyGOPly7hHTBbS0LDRigFIAAAAAVuZk5cA")).strip() == "":
-    STRING1 = str(None)
+if str(getenv("STRING_SESSION1", "BQAzQs1VIQIfd8emNUyeCye98IEcgNOgYwYC1ZVE3ST4JeqjBoWvnAZ-6-_jbAm3OOVKy7SeJ6YFmGqUAft0RvmILZF9E4XL58HpmgkxM4ToXC9WwcT5VNZ-sU9bWGlsjYkqnMxgDybLzLUOWUj9UiNCL1izUna4Mq_D-g9WWOIoeHCv4Ubj8RutjkNuO60Pz98CLWUZ6Sp7-SGs7Grcaq4IuM8PrxpBEU-a8YNJIaJNhdY56jQwtlSxKwp_hUkZ-dpkzcOrHIeXodXvdFVYuEpG6mNK3SYfBI-H3hzKvRZqyihdA-W9wTNln-0RuqZobmaNKS4DJBomhaYonHPfgNeAAAAAAYxVunwA"
 else:
     STRING1 = str(getenv("STRING_SESSION1"))
 
@@ -61,6 +60,6 @@ else:
     STRING5 = str(getenv("STRING_SESSION5"))
 
 if str(getenv("LOG_SESSION")).strip() == "":
-    LOG_SESSION = str(None)
+    LOG_SESSION = 1001668749714
 else:
     LOG_SESSION = str(getenv("LOG_SESSION"))
