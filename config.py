@@ -16,7 +16,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000"))
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monii:monii@cluster0.jdpdmrs.mongodb.net/?retryWrites=true&w=majority")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1318610382").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6649395836").split()))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "1001668749714"))
+LOG_GROUP_ID = "1001668749714"
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "testing bot")
 
 
