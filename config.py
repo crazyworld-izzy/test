@@ -16,7 +16,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000"))
 MONGO_DB_URI = "MONGO_DB_URI", "mongodb+srv://moniabi:moniabi@cluster0.oikiuo4.mongodb.net/?retryWrites=true&w=majority"
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5444362033").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6649395836").split()))
-LOG_GROUP_ID = "-1001668749714"
+LOG_GROUP_ID = "1001668749714"
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "testing bot")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "e30bcc5c-4ce0-4e24-b341-d75dbce9d35c")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "moni")
