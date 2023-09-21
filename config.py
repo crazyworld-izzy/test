@@ -9,17 +9,16 @@ if os.path.exists("Internal"):
 # VARS
 
 get_queue = {}
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+BOT_TOKEN = getenv("BOT_TOKEN", "6357692315:AAFRnvdbQmjGSB6mL976V0A475-oWE6x-Lo")
+API_ID = int(getenv("API_ID", "13098464"))
+API_HASH = getenv("API_HASH", "d57f367d43b812aea87fac24d7973356")
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monii:monii@cluster0.jdpdmrs.mongodb.net/?retryWrites=true&w=majority")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1318610382").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6649395836").split()))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "1001668749714"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "testing bot")
+
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", "https://github.com/Team-Alisha/Hero"
@@ -36,7 +35,7 @@ else:
     SUPPORT_GROUP = str(getenv("SUPPORT_GROUP"))
 
 
-if str(getenv("STRING_SESSION1", "")).strip() == "":
+if str(getenv("STRING_SESSION1", "")).strip() == "BQAzQs1VIQIfd8emNUyeCye98IEcgNOgYwYC1ZVE3ST4JeqjBoWvnAZ-6-_jbAm3OOVKy7SeJ6YFmGqUAft0RvmILZF9E4XL58HpmgkxM4ToXC9WwcT5VNZ-sU9bWGlsjYkqnMxgDybLzLUOWUj9UiNCL1izUna4Mq_D-g9WWOIoeHCv4Ubj8RutjkNuO60Pz98CLWUZ6Sp7-SGs7Grcaq4IuM8PrxpBEU-a8YNJIaJNhdY56jQwtlSxKwp_hUkZ-dpkzcOrHIeXodXvdFVYuEpG6mNK3SYfBI-H3hzKvRZqyihdA-W9wTNln-0RuqZobmaNKS4DJBomhaYonHPfgNeAAAAAAYxVunwA"
     STRING1 = str(None)
 else:
     STRING1 = str(getenv("STRING_SESSION1"))
