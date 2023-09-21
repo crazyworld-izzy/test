@@ -13,7 +13,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6357692315:AAHZnwh4gYzMmS7Cp7oV3n6ECosvMRzPggg"
 API_ID =  "15883181"
 API_HASH = "093e1723084f836d8399bdbdd9ef536f"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000"))
-MONGO_DB_URI = "MONGO_DB_URI", "mongodb+srv://monii:monii@cluster0.jdpdmrs.mongodb.net/?retryWrites=true&w=majority"
+MONGO_DB_URI = "MONGO_DB_URI", "mongodb+srv://moniabi:moniabi@cluster0.oikiuo4.mongodb.net/?retryWrites=true&w=majority"
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5444362033").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6649395836").split()))
 LOG_GROUP_ID = "-1001668749714"
