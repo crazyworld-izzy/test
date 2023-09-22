@@ -9,7 +9,7 @@ if os.path.exists("Internal"):
 # VARS
 
 get_queue = {}
-BOT_TOKEN = getenv("BOT_TOKEN", "6357692315:AAFpcir7CKAE4OIKQ_TXAku8tZfvYfW5RIw")
+BOT_TOKEN = getenv("BOT_TOKEN", "6443029397:AAFLghTQUsS1oohwMA6O_4CNC-DhTDiOPns")
 API_ID =  "9181844"
 API_HASH = "996a3e7194a4f07576fda5c20bb1138b"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000"))
@@ -17,7 +17,7 @@ MONGO_DB_URI = "MONGO_DB_URI", "mongodb+srv://moniabi:moniabi@cluster0.oikiuo4.m
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5444362033").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6649395836").split()))
 LOG_GROUP_ID = "-1001912157839"
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "testing bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MoniMineBot")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "e30bcc5c-4ce0-4e24-b341-d75dbce9d35c")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "moni")
 
